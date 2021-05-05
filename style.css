@@ -1,0 +1,48 @@
+body {
+  background-color: #e4fdfd;
+}
+
+.container h1,
+.container h2 {
+  margin: 20px;
+}
+
+.btn {
+  background-color: #375acf;
+  margin: 80px;
+  color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 1.85rem 3rem;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  border-radius: 10rem;
+  transform: scale(1);
+  transition: transform 400ms;
+}
+.btn:hover {
+  transform: scale(1.15);
+}
+
+.btn:hover {
+  transform: scale(1.15);
+}
+
+.form__group input {
+  border: 5px solid #af4e76;
+  border-radius: 8rem;
+  color: #0a0909;
+  font-size: 1rem;
+  outline: none;
+  padding: 0.5rem 1.5rem;
+  width: 35%;
+}
+.form__group input:focus {
+  border: 2px solid red;
+}
+.form__group input .email {
+  display: block;
+}
+
+/*# sourceMappingURL=style.css.map */
